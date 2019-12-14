@@ -1,0 +1,19 @@
+Pseudocódigo Shell:
+
+Para sempre:
+lê pid.txt
+checa se pid combina com um programa ativo
+se sim, imprime: "1: It is alive"
+se não, imprime: "1: It is dead"
+espera 0,1 segundo
+
+Pseucocódigo Python:
+checar o próprio pid
+criar/abrir pid.txt
+escrever em pid.txt
+fechar pid.txt
+repetir 3 vezes os próximos 2 passos:
+	imprimir "2: I am alive"
+	aguarda x segundos
+imprimir "2: I am gonna die now, bye"
+fim do código
